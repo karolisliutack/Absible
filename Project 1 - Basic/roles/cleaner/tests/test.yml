@@ -1,6 +1,5 @@
-- hosts: web
+---
+- hosts: localhost
   remote_user: root
-  become: yes
   roles:
-    - apache
     - cleaner
